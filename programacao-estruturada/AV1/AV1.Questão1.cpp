@@ -3,7 +3,6 @@
 #include <locale.h>
 using namespace std;
 
-int a,b,c,d;
 
 int F(int N){
 	if (N == 1){
@@ -37,13 +36,10 @@ int H(int N){
 int main(){
 	setlocale(LC_ALL,"");
 	
-int n;
-cout << endl << " Digite um número: ";
-cin >> n;
  
- cout<< endl << " F  " << "(" << n << ") = " << F(n)
- 	 << endl << " G  " << "(" << n << ") = " << G(n)
-	 << endl << " H  " << "(" << n << ") = " << H(n)
+ cout<< endl << " F  " << "(10) = " << F(10)
+ 	 << endl << " G  " << "( 8) = " << G(8)
+	 << endl << " H  " << "( 9) = " << H(9)
 	 << endl ;
     return 0;
 }

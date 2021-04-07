@@ -7,6 +7,7 @@ using namespace std;
 
 const int K = 12;
 int CNPJ_VETOR[K]; // Vetor com os digitos informados do CNPJ
+
 int DIGITO_1_PESO[K] = {5,4,3,2,9,8,7,6,5,4,3,2};
 int DIGITO_2_PESO[K] = {6,5,4,3,2,9,8,7,6,5,4,3,};
 int D1;
